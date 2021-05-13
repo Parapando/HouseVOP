@@ -1,0 +1,739 @@
+body{
+    background: #242B33 !important;
+}
+
+.header{
+position: absolute;
+width: 100%;
+height: 840px;
+left: 0px;
+top: 40px;
+
+background-image: url(source/Rectangle.png);
+
+}
+
+.jiloy.kompleks{
+position: absolute;
+width: 556px;
+height: 109px;
+left: 682px;
+top: 296px;
+
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 64px;
+text-align: center;
+color: #D4C17F;
+}
+
+.mouse{
+position: absolute;
+width: 40px;
+height: 40px;
+left: 940px;
+top: 555px;
+}
+
+.geo{
+position: absolute;
+width: 21px;
+height: 21px;
+left: 656px;
+top: 745px;
+}
+
+.phone{
+position: absolute;
+left: 1000px;
+top: 745px;
+}
+
+.contact1{
+    position: absolute;
+width: 218px;
+height: 21px;
+left: 692px;
+top: 745px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+white-space: nowrap;
+
+color: #FFFFFF;
+}
+
+.contact2{
+    position: absolute;
+    width: 139px;
+    height: 21px;
+    left: 1046px;
+    top: 745px;
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    white-space: nowrap;
+    
+    color: #FFFFFF;
+}
+
+.elka, .doma, .fontan, .velik{
+position: absolute;
+width: 80px;
+height: 80px;
+}
+.elka{
+left: 619px;
+top: 960px;
+}
+
+.doma{
+    left: 852px;
+    top: 960px;
+}
+
+.fontan{
+left: 1056px;
+top: 960px;
+}
+
+.velik{
+left: 1255px;
+top: 970px;
+
+}
+.housevop{
+position: absolute;
+width: 134px;
+height: 37px;
+left: 385px;
+top: 20px;
+font-style: normal;
+font-weight: 600;
+font-family: Post No Bills Jaffna SemiBold;
+font-size: 50px;
+line-height: 54px;
+color: #FFFFFF;
+cursor: pointer;
+}
+.housevop2{
+position: absolute;
+height: 14px;
+left: 405px;
+top: 110px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+
+letter-spacing: 0.12em;
+
+color: #FFFFFF;
+}
+
+.menu {
+    position: absolute;
+    height: 16px;
+    left: 974px;
+    top: 55px;
+    
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    
+    color: #FFFFFF;
+}
+.menu > li {
+    display: inline-flex;
+}
+.menu > li + li {
+    margin-left: 20px;
+}
+.menu > li > a {
+    padding: 0 0 20px 0;
+    position: relative;
+  
+    color: #FFFFFF;
+    font-weight: bold;
+    letter-spacing: 0.05px;
+    font-size: 14px;
+    text-decoration: none;
+}
+.menu > li > a:after {
+    width: 0;
+    height: 3px;
+    background-color: #FFFFFF;
+    content: '';
+    left: 0;
+    bottom: 10px;
+    position: absolute;
+    transition: all .3s;
+}
+.menu > li > a:hover::after {
+    width: 100%;
+}
+.menu li {
+    margin: 0;
+    white-space: nowrap;
+}
+
+.vectorstext1, .vectorstext2, .vectorstext3, .vectorstext4{
+position: absolute;
+top: 1093px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.vectorstext1{
+width: 193px;
+height: 47px;
+left: 563px;
+}
+
+.vectorstext2{
+width: 133px;
+height: 47px;
+left: 826px;
+}
+
+.vectorstext3{
+    width: 134px;
+    height: 47px;
+    left: 1029px;
+}
+
+.vectorstext4{
+width: 124px;
+height: 47px;
+left: 1233px;
+}
+
+.II, .III, .IV, .V{
+    position: absolute;
+    height: 507px;
+    font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 400px;
+line-height: 533px;
+text-align: center;
+user-select: none;
+
+color: #FFFFFF;
+
+opacity: 0.02;
+}
+.II{
+
+width: 301px;
+
+left: 1361px;
+top: 812px;
+}
+
+.III{
+width: 452px;
+left: 179px;
+top: 1222px;
+}
+
+.IV{
+width: 418px;
+left: 1302px;
+top: 2697px;
+}
+
+.V{
+width: 268px;
+left: 266px;
+top: 3419px;
+}
+
+.ourrooms{
+position: absolute;
+width: 292px;
+height: 36px;
+left: 405px;
+top: 1260px;
+
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+
+color: #D4C17F;
+}
+
+.wanttosee{
+    position: absolute;
+width: 380px;
+height: 36px;
+left: 405px;
+top: 2246px;
+
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+
+color: #D4C17F;
+}
+
+.loremipsum{
+    position: absolute;
+width: 535px;
+height: 114px;
+left: 405px;
+top: 2332px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+
+
+color: #FFFFFF;
+}
+
+.onmap{
+    position: absolute;
+width: 292px;
+height: 36px;
+left: 405px;
+top: 3456px;
+
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+
+color: #D4C17F;
+}
+
+.questions{
+    position: absolute;
+width: 292px;
+height: 36px;
+left: 405px;
+top: 4130px;
+
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+color: #D4C17F;
+}
+
+.wedont1{
+position: absolute;
+width: 255px;
+height: 28px;
+left: 975px;
+top: 2407px;
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 16px;
+text-align: center;
+color: #E7E7E7;
+user-select: none;
+}
+
+.wedont2{
+position: absolute;
+width: 255px;
+height: 28px;
+left: 400px;
+top: 4227px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 16px;
+text-align: center;
+color: #E7E7E7;
+user-select: none;
+}
+
+.loft1picture{
+position: absolute;
+left: 405px;
+top: 1396px;
+cursor: pointer;
+transition: 1s;
+}
+
+.loft1text{
+    position: absolute;
+width: 353px;
+height: 22px;
+left: 455px;
+top: 1644px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+user-select: none;
+cursor: pointer;
+
+color: #FFFFFF;
+}
+
+.loft2picture{
+    position: absolute;
+left: 970px;
+top: 1396px;
+cursor: pointer;
+transition: 1s;
+}
+
+.loft2text{
+    position: absolute;
+width: 353px;
+height: 22px;
+left: 1020px;
+top: 1644px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+user-select: none;
+cursor: pointer;
+
+color: #FFFFFF;
+}
+
+.loft3picture{
+    position: absolute;
+left: 405px;
+top: 1746px;
+cursor: pointer;
+transition: 1s;
+}
+
+.loft3text{
+    position: absolute;
+width: 353px;
+height: 22px;
+left: 455px;
+top: 1994px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+user-select: none;
+cursor: pointer;
+
+color: #FFFFFF;
+}
+
+.loft4picture{
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+left: 970px;
+top: 1746px;
+cursor: pointer;
+transition: 1s;
+}
+
+.loft4text{
+    position: absolute;
+width: 353px;
+height: 22px;
+left: 1020px;
+top: 1994px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+user-select: none;
+cursor: pointer;
+
+color: #FFFFFF;
+
+}
+
+.Rectangle2{
+    position: absolute;
+    width: 100%;
+    height: 560px;
+    left: 0px;
+    top: 2066px;
+}
+
+input, button{
+  width: 255px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  font-size: 14px;
+  color: #fff;
+  padding-left: 10px;
+  outline: 0;
+  outline-offset: 0;
+  transition: 0.5s;
+}
+
+button{
+  width: 265px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  background: #d4c17f;
+  color: #ffffff;
+  opacity: 1;
+  transition: 0.5s;
+}
+button:hover{
+  cursor: pointer;
+  transition: 0.5s;
+  background: rgba(212, 193, 127, 0.2);
+  color: #ffffff;
+  transform: scale(0.98);
+}
+
+input::placeholder{
+  color: #bebebe;
+  text-align: center;
+  transition: 0.5s;
+}
+
+input:focus{
+  background-color: rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+
+.name{
+position: absolute;
+width: 255px;
+height: 50px;
+left: 975px;
+top: 2311px;
+}
+
+.mobile{
+    position: absolute;
+    width: 255px;
+    height: 50px;
+    left: 1260px;
+    top: 2311px;
+}
+
+.button1{
+    position: absolute;
+    width: 265px;
+    height: 50px;
+    left: 1260px;
+    top: 2396px;
+}
+
+.player{
+    position: absolute;
+    width: 719px;
+    height: 650px;
+    left: 595px;
+    top: 2626px;
+    cursor: pointer;
+}
+
+.googlemaps{
+    position: absolute;
+width: 1110px;
+height: 494px;
+left: 405px;
+top: 3456px;
+}
+
+.name2{
+    position: absolute;
+width: 255px;
+height: 50px;
+left: 690px;
+top: 4216px;
+}
+
+.mobile2{
+    position: absolute;
+width: 255px;
+height: 50px;
+left: 975px;
+top: 4216px;
+}
+
+.button2{
+    position: absolute;
+width: 255px;
+height: 50px;
+left: 1260px;
+top: 4216px;
+}
+
+footer{
+    position: absolute;
+width:100%;
+height: 272px;
+left: 0px;
+top: 4446px;
+background-color: #2D343C;
+}
+
+.housevopfooter{
+position: absolute;
+left: 405px;
+top: 40px;
+
+font-family: Post No Bills Jaffna SemiBold;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 54px;
+cursor: pointer;
+
+color: #FFFFFF;
+}
+
+.jiloyfooter{
+    position: absolute;
+left:402px;
+top:120px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+letter-spacing: 0.12em;
+
+color: #FFFFFF;
+}
+
+.footercol1{
+    position: absolute;
+left: 705px;
+top: 78px;
+    list-style-type: none;
+    font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.05em;
+cursor: pointer;
+
+color: #FFFFFF;
+}
+
+.footercol1 > li + li{
+    margin-top:10px;
+}
+
+.footercol2{
+    position: absolute;
+left: 991px;
+top: 78px;
+list-style-type: none;
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.05em;
+cursor: pointer;
+
+color: #FFFFFF;
+}
+
+.footercol2 > li + li{
+    margin-top:10px;
+}
+
+.footercol3{
+    position: absolute;
+    left: 1276px;
+    top: 72px;
+    list-style-type: none;
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+}
+
+.footercol3 > li + li{
+    margin-top:10px;
+}
+
+.youtube{
+    position: absolute;
+left: 1315px;
+top: 201px;
+cursor: pointer;
+}
+
+.instagram{
+    position: absolute;
+    left: 1450px;
+    top: 201px;
+    cursor: pointer;
+}
+
+.vk{
+    position: absolute;
+    left: 1360px;
+    top: 201px;
+    cursor: pointer;
+}
+
+.facebook{
+    position: absolute;
+    left: 1410px;
+    top: 201px;
+    cursor: pointer;
+}
+
+.loft4picture:hover, .loft3picture:hover, .loft2picture:hover, .loft1picture:hover{
+    transform: scale(1.1);
+}
